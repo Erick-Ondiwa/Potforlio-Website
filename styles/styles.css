@@ -1,0 +1,128 @@
+body{
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+  margin: 0;
+  justify-content: center;
+  background-color: hsl(0, 2%, 80%);
+}
+header{
+  display: flex;
+  top: 0;
+  bottom: 0;
+  align-items: center;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  color: #000000;
+  position: fixed; 
+  z-index: 1000;
+  text-align: center;
+  background-color: hsla(0, 0%, 25%, 0.5);
+  height: 80px;
+}
+header h1{
+  text-shadow: 3px 3px 5px hsl(0, 0%, 30%);
+  margin-top: 0;
+}
+h3{
+  margin: 0;
+}
+.mynav{
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 100%;
+  height: 50px;
+  overflow: hidden;
+  
+}
+
+.mynav ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style-type: none;
+} 
+
+li{
+  
+  
+}
+
+li a{
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.2em;
+  text-decoration: none;
+  color: hsl(0, 0%, 30%);
+  cursor: pointer;
+  padding: 20px 20px;
+}
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.details h4{
+  margin-top: 0;
+  font-size: 2em;
+  margin-bottom: 0;
+}
+.details h1{
+  display: inline;
+  margin-top: 0;
+  font-size: 5em;
+  font-weight: bolder;
+}
+ .profie_pic img{
+  display: inline;
+  width: 250px;
+  float: right;
+}
+.details h2{
+  margin-top: 0;
+  font-size: 5em;
+  max-width: 800px;
+  margin-bottom: 0;
+}
+.details p{
+  text-wrap: ;
+  font-style: Roboto;
+  font-size: 1.2em;
+  display: inline;
+  max-width: 800px
+}
+main p{
+  font-style: Roboto;
+  font-size: 1.2em;
+  display: inline;
+  max-width: 800px;
+}
+footer{
+  background-color: hsla(0, 0%, 0%, 0.502);
+  color: white;
+  justify-content: space-evenly;
+  align-items: center;
+  display: flex;
+  height: 100px;
+}
+.copyright p{
+  display: inline-block;
+}
+.link_icons{
+  cursor: pointer;
+  align-items: center;
+}
+.link_icons a{
+  align-items: center;
+  text-decoration: none;
+  padding: 8px;
+  border-radius: 5px;
+  background-color: #333;
+  color: white;
+  margin: 5px;
+}
+.link_icons a:hover {
+  background-color: #555; 
+}
