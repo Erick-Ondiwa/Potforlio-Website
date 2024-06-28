@@ -75,11 +75,7 @@ main{
   font-size: 5em;
   font-weight: bolder;
 }
- .profie_pic img{
-  display: inline;
-  width: 250px;
-  float: right;
-}
+
 .details h2{
   margin-top: 0;
   font-size: 5em;
