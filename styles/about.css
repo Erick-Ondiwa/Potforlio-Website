@@ -1,4 +1,5 @@
 body{
+  width: 100%;
   display: flex;
   flex-direction: column;
   font-family: Roboto;
@@ -8,6 +9,7 @@ body{
   background-color: hsl(0, 2%, 80%);
 }
 main{
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,6 +40,28 @@ main h1{
 main h2{
   font-size: 3em;
   margin-bottom: 0;
+}
+.languages{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.frontend{
+  font-size: 1em;
+  width: 400px;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+}
+.backend{
+  font-size: 1em;
+  width: 400px;
+  display: inline;
+}
+ul li{
+  list-style-type: square;
+  font-size: 1.2em;
 }
 main p{
   width: 500px;
