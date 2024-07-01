@@ -3,6 +3,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  background-color: hsl(0, 2%, 80%);
   margin: 0;
   font-family: Roboto;
   font-size: 1.2em;
