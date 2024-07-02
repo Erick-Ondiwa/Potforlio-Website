@@ -6,7 +6,7 @@ body{
   font-family: Roboto;
   margin: 0;
   justify-content: center;
-  background-color: hsl(0, 2%, 80%);
+  background-color: hsla(245, 92%, 5%, 0.984);
 }
 header{
   display: flex;
@@ -16,15 +16,16 @@ header{
   width: 100%;
   display: flex;
   justify-content: space-between;
-  color: #000000;
+  color: white;
   position: fixed; 
   z-index: 1000;
+  background-color: black;
   text-align: center;
-  background-color: hsla(0, 0%, 25%, 0.5);
   height: 80px;
 }
 header h1{
-  text-shadow: 3px 3px 5px hsl(0, 0%, 30%);
+  font-weight: bold;
+  text-shadow: 3px 3px 5px hsl(0, 0%, 10%);
   margin-top: 0;
 }
 h3{
@@ -56,7 +57,7 @@ li a{
   text-align: center;
   font-size: 1.2em;
   text-decoration: none;
-  color: hsl(0, 0%, 30%);
+  color: hsl(0, 0%, 61%);
   cursor: pointer;
   padding: 20px 20px;
 }
@@ -68,11 +69,14 @@ main{
   justify-content: center;
 }
 .details h4{
+  font-family: Roboto;
+  color: rgb(13, 238, 107);
   margin-top: 0;
-  font-size: 2em;
+  font-size: 1.5em;
   margin-bottom: 0;
 }
 .details h1{
+  color: hsla(0, 0%, 100%, 0.8);
   display: inline;
   margin-top: 0;
   font-size: 5em;
@@ -80,18 +84,20 @@ main{
 }
 
 .details h2{
+  color: hsla(0, 0%, 100%, 0.52);
   margin-top: 0;
-  font-size: 5em;
+  font-size: 4em;
   max-width: 800px;
   margin-bottom: 0;
 }
-.details p{
+.details, main p{
   font-style: Roboto;
   font-size: 1.2em;
   display: inline;
   max-width: 800px
 }
 main p{
+  color: hsl(0, 2%, 66%);
   font-style: Roboto;
   font-size: 1.2em;
   display: inline;
@@ -99,14 +105,21 @@ main p{
 }
 footer{
   background-color: hsla(0, 0%, 0%, 0.502);
-  color: white;
+  color: hsla(0, 0%, 100%, 0.8);
   justify-content: space-evenly;
   align-items: center;
   display: flex;
   height: 100px;
   width: 100%;
 }
+
 .copyright p{
+  font-size: 1em;
+  color: hsla(0, 0%, 100%, 0.8);
+  display: inline-block;
+} 
+.copyright h4{
+  color: rgb(13, 238, 107);
   display: inline-block;
 }
 .link_icons{
@@ -124,4 +137,8 @@ footer{
 }
 .link_icons a:hover {
   background-color: #555; 
+}
+p a{
+  text-decoration: none;
+  color: rgb(13, 238, 107);
 }

@@ -3,11 +3,12 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-color: hsl(0, 2%, 80%);
+  background-color: hsla(245, 92%, 5%, 0.984);
   font-family: Roboto;
   margin: 0;
 }
 p{
+  color: hsl(0, 2%, 66%);
   font-size: 1.2em;
   margin-bottom: 0;
 }
@@ -16,7 +17,19 @@ p{
   margin-bottom: 0;
   width: 800px;
 }
-h1{
+.whatsNext{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.whatsNext p{
+  margin-top: 50px;
+  font-size: 1.2em;
+  font-weight: bold;
+  color: rgb(13, 238, 107);
+}
+.whatsNext h1{
+  color: hsla(0, 0%, 100%, 0.52);
   font-size: 4em;
   margin-top: 0;
   margin-bottom: 0;
@@ -26,18 +39,19 @@ h1{
   margin-top: 20px;
   padding: 10px 20px;
   border: none;
-  background-color: hsl(120, 100%, 51%);
+  background-color: hsl(120, 100%, 48%);
   border-radius: 10px;
   cursor: pointer;
 }
 .contactButton:hover{
-  background-color: hsla(120, 100%, 51%, 0.688);
-  box-shadow: 2px 2px 5px hsl(0, 0%, 25%);
+  box-shadow: 3px 3px 6px hsl(0, 0%, 10%);
+  background-color: hsla(120, 100%, 48%, 0.499);
 }
 .quickLinks{
   cursor: pointer;
   align-items: center;
   margin-top: 20px;
+  margin-bottom: 50px;
 }
 .quickLinks a{
   align-items: center;
@@ -47,6 +61,7 @@ h1{
   background-color: #333;
   color: white;
   margin: 5px;
+  
 }
 .quickLinks a:hover {
   background-color: #555;

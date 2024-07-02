@@ -6,7 +6,7 @@ body{
   margin: 0;
   align-items: center;
   justify-content: center;
-  background-color: hsl(0, 2%, 80%);
+  background-color: hsla(245, 92%, 5%, 0.984);
 }
 main{
   width: 100%;
@@ -17,27 +17,30 @@ main{
   margin-bottom: 20px;
 }
 main h1{
+  color: hsla(0, 0%, 100%, 0.52);
   font-size: 4em;
 }
-.details{
+.moreDetails{
   display: flex;
   align-items: center;
   justify-content: center;
   width: 800px;
 }
-.details p{
+.moreDetails p{
+  color: hsl(0, 2%, 66%);
   width: 400px;
   display: inline;
   font-family: Roboto;
   font-size: 1.2em;
  
 }
-.details img{
+.moreDetails img{
   margin-right: 50px;
   width: 250px;
   border-radius: 50%;
 }
 main h2{
+  color: hsla(0, 0%, 100%, 0.52);
   font-size: 3em;
   margin-bottom: 0;
 }
@@ -59,11 +62,18 @@ main h2{
   width: 400px;
   display: inline;
 }
-ul li{
+.languages li{
+  color: hsl(0, 2%, 66%);
   list-style-type: square;
   font-size: 1.2em;
 }
+.relevantCourses li{
+  color: hsl(0, 2%, 66%);
+  list-style-type: square;
+  font-size: 1.2em;
+} 
 main p{
+  color: hsl(0, 2%, 66%);
   width: 500px;
   font-size: 1.2em;
   margin-bottom: 0;
