@@ -25,8 +25,9 @@ header{
   height: 80px;
 }
 header h1{
+  left: 5px;
+  color: hsla(108, 93%, 52%, 0.354);
   font-weight: bold;
-  text-shadow: 3px 3px 5px hsl(0, 0%, 10%);
   margin-top: 0;
 }
 h3{
@@ -47,20 +48,18 @@ h3{
   justify-content: center;
   list-style-type: none;
 } 
-
-li{
-  
-  
-}
-
 li a{
   font-weight: bold;
   text-align: center;
   font-size: 1.2em;
   text-decoration: none;
-  color: hsl(0, 0%, 61%);
+  color:hsla(0, 0%, 80%, 0.94);
   cursor: pointer;
   padding: 20px 20px;
+}
+li a:hover{
+  transition: ease;
+  color: hsla(0, 0%, 61%, 0.663);
 }
 main{
   width: 100%;
@@ -71,7 +70,7 @@ main{
 }
 .details h4{
   font-family: Roboto;
-  color: rgb(13, 238, 107);
+  color: hsl(145, 90%, 49%);
   margin-top: 0;
   font-size: 1.5em;
   margin-bottom: 0;
