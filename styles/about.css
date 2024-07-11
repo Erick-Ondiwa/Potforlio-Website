@@ -20,6 +20,22 @@ main h1{
   color: hsla(0, 0%, 100%, 0.52);
   font-size: 4em;
 }
+main h3{
+  margin: 0;
+  color: hsla(0, 0%, 100%, 0.8);
+  font-size: 4em;
+}
+main h4{
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 800px; */
+  margin: 0;
+  margin-bottom: 20px;
+  font-style: italic;
+  font-size: 2.5em;
+  color: hsla(145, 90%, 49%, 0.917);
+}
 .moreDetails{
   display: flex;
   align-items: center;
