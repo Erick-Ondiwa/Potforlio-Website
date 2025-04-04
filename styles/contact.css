@@ -1,12 +1,3 @@
-body{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  background-color: hsla(245, 92%, 5%, 0.984);
-  font-family: Roboto;
-  margin: 0;
-}
 p{
   color: hsl(0, 2%, 66%);
   font-size: 1.2em;

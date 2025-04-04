@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Projects Potforlio</title>
+  <title>My Projects</title>
 
   <link rel="stylesheet" href="styles/potforlio.css">
   <link rel="stylesheet" href="styles/styles.css">
@@ -13,35 +13,8 @@
   src="https://kit.fontawesome.com/006d8b3681.js" crossorigin="anonymous">
  </script>
 
- <header>
-   <h1>Erick Ondiwa</h1>
-   <div class="link_icons">   
-     <!-- <h3>Aspiring Data Scientist and Machine Learning Engineer<h3> -->
+ <div id="header"></div>
 
-       <a href="https://github.com/Erick-Ondiwa" target="_blank">
-         <i class="fa-brands fa-github"></i>
-       </a>
-       <a href="https://www.linkedin.com/in/erick-ondiwa-5a39b52a4/" target="_blank">
-         <i class="fa-brands fa-linkedin-in"></i>
-       </a>
-       <a href="erickondiwaz01@gmail.com" target="_blank">
-         <i class="fa-solid fa-envelope"></i>
-       </a>
-       <a href="https://twitter.com/ErickOndiwaz" target="_blank">
-         <i class="fa-brands fa-x-twitter"></i>
-       </a>
-     </div>
- </header>
-
- <div class="mynav">
-   <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="potforlio.html">Potforlio</a></li>
-    <li><a href="https://erickondiwa.wordpress.com/" target="_blank">Blog</a></li>
-    <li><a href="contact.html">Contact</a></li>>
-   </ul>
- </div>
   <script
    src="https://kit.fontawesome.com/006d8b3681.js" crossorigin="anonymous">
   </script>
@@ -87,29 +60,11 @@
      </a>
   </div>
 
-  <footer>
-    <div class="copyright">
-      Copyright
-      &copy;
-      <span id="year"></span>
-      <h4>Erick Ondiwa,</h4>
-      <p>All Rights Reserved.</p>
-    </div>
-    <div class="link_icons"> 
-      <a href="https://github.com/Erick-Ondiwa" target="_blank">
-        <i class="fa-brands fa-github"></i>
-      </a>
-      <a href="https://www.linkedin.com/in/erick-ondiwa-5a39b52a4/" target="_blank">
-        <i class="fa-brands fa-linkedin-in"></i>
-      </a>
-      <a href="erickondiwaz01@gmail.com">
-        <i class="fa-solid fa-envelope"></i>
-      </a>
-      <a href="https://twitter.com/ErickOndiwaz" target="_blank">
-        <i class="fa-brands fa-x-twitter"></i>
-      </a>
-    </div>
-  </footer>
+  <div id="footer"></div>
+  <script>
+    document.getElementById("header").innerHTML = fetch("header.html").then(response => response.text()).then(data => document.getElementById("header").innerHTML = data);
+    document.getElementById("footer").innerHTML = fetch("footer.html").then(response => response.text()).then(data => document.getElementById("footer").innerHTML = data);
+  </script>
 
   <script src="scripts/scripts.js"></script>
 </body>

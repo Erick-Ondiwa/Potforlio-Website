@@ -1,4 +1,4 @@
-body{
+/* body{
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -7,35 +7,15 @@ body{
   align-items: center;
   justify-content: center;
   background-color: hsla(245, 92%, 5%, 0.984);
-}
-main{
+} */
+/* main{
   width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
-}
-main h1{
-  color: hsla(0, 0%, 100%, 0.52);
-  font-size: 4em;
-}
-main h3{
-  margin: 0;
-  color: hsla(0, 0%, 100%, 0.8);
-  font-size: 4em;
-}
-main h4{
-  /* display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 800px; */
-  margin: 0;
-  margin-bottom: 20px;
-  font-style: italic;
-  font-size: 2em;
-  color: hsla(145, 90%, 49%, 0.917);
-}
+} */
 .moreDetails{
   display: flex;
   align-items: center;
