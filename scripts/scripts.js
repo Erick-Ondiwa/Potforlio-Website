@@ -6,9 +6,14 @@ fetch("footer.html")
 .then(res => res.text())
 .then(data => (document.getElementById("footer").innerHTML = data));
 
-const newYear = new Date().getFullYear();
-const year = document.getElementById('year');
-year.textContent = `${newYear}`;
+document.addEventListener('DOMContentLoaded', function () {
+  const newYear = new Date().getFullYear();
+  const year = document.getElementById('year');
+  if (year) {  // Check if the element exists
+    year.textContent = `${newYear}`;
+  }
+});
+
 
 document.addEventListener('DOMContentLoaded', function () {
   const animatedElements = document.querySelectorAll('.scroll-animate');
