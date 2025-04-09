@@ -1,117 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me | Erick Ondiwa</title>
-    
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/about.css">
-    
-    <script src="https://kit.fontawesome.com/006d8b3681.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Me | Erick Ondiwa</title>
+
+  <link rel="stylesheet" href="styles/styles.css" />
+  <link rel="stylesheet" href="styles/about.css" />
+  <script src="https://kit.fontawesome.com/006d8b3681.js" crossorigin="anonymous"></script>
 </head>
 <body>
 
-    <div id="header"></div>
+  <div id="header"></div>
 
-    <main>
-        <h1>About Me</h1>
-        <h3>Erick Ondiwa</h3>
-        <h4>Data Scientist | Machine Learning Engineer | Cybersecurity Enthusiast</h4>
-
-        <div class="moreDetails">
-            <p>
-                I am a <strong>third-year Computer Science</strong> student at <strong>Maseno University</strong>, passionate about **Data Science, Machine Learning, AI, and Cybersecurity**.  
-                I enjoy solving complex problems, working on innovative projects, and building scalable intelligent systems.  
-                My experience spans **software development, AI, and security**, with a focus on making **intelligent and secure applications**.
-            </p>
-            <img src="imgs/img1.png" alt="Erick Ondiwa">
+  <main class="about-container">
+    <section class="about-profile scroll-animate">
+        <img src="imgs/profile-pic.png" alt="Erick Ondiwa" class="scroll-animate-img" />
+        <div class="about-profile-info">
+          <h1>Erick Ondiwa</h1>
+          <h4>An Aspiring Data Scientist and Machine Learning Engineer</h4>
+          <p>
+            I'm a <strong>3rd-year Computer Science</strong> student at <strong>Maseno University</strong> with a deep passion for 
+            <strong>Data Science, AI, Machine Learning, and Cybersecurity</strong>. I thrive on building intelligent, scalable, and secure systems through hands-on experience and collaboration.
+          </p>
+          <a href="imgs/ERICK_ONDIWA_CV.pdf" download class="btn-resume">
+            <i class="fas fa-download"></i> Download my CV
+          </a>
         </div>
+      </section>
+  
+    <section class="about-section">
+      <h2>🎓 Education</h2>
+      <p><strong>BSc in Computer Science</strong> - Maseno University, Kenya</p>
+      <p><strong>Expected Graduation:</strong> December 2026</p>
+    </section>
+  
+    <section class="about-section scroll-animate">
+      <h2>🛠️ Skills</h2>
+      <div class="skills-grid scroll-animate-skill">
+        <div>
+          <h4>💻 Programming Languages</h4>
+          <ul>
+            <li>Python</li>
+            <li>JavaScript (ES6+)</li>
+            <li>PHP</li>
+            <li>SQL</li>
+          </ul>
+        </div>
+        <div>
+          <h4>📊 Data Analysis & Visualization</h4>
+          <ul>
+            <li>Pandas</li>
+            <li>NumPy</li>
+            <li>Matplotlib, Seaborn</li>
+          </ul>
+        </div>
+        <div>
+          <h4>🤖 Machine Learning & AI</h4>
+          <ul>
+            <li>Scikit-learn</li>
+          </ul>
+        </div>
+        <div>
+          <h4>🌐 Web Development</h4>
+          <ul>
+            <li>HTML5, CSS3, React</li>
+            <li>Django & Django REST</li>
+          </ul>
+        </div>
+        <!-- <div>
+          <h4>🔐 Cybersecurity</h4>
+          <ul>
+            <li>CEH, CISM, CISSP Certified</li>
+            <li>OSCP-level Practices</li>
+            <li>Symmetric & Asymmetric Cryptography</li>
+          </ul>
+        </div> -->
+      </div>
+    </section>
+  
+    <section class="about-section">
+      <h2>📚 Relevant Coursework</h2>
+      <ul class="courses-list">
+        <li>Artificial Intelligence</li>
+        <li>Machine Learning Programming</li>
+        <li>Design and Analysis of Algorithms</li>
+        <li>Advanced Database Systems</li>
+        <li>Automata Theory</li>
+        <li>Web Development</li>
+        <li>Operating Systems</li>
+      </ul>
+    </section>
+  </main>
+  
 
-        <section class="education">
-            <h2>Education</h2>
-            <p>
-                <strong>Bachelor of Science in Computer Science</strong> <br>
-                Maseno University, Kenya  
-            </p>
-            <p><strong>Expected Graduation:</strong> December 2026</p>
-        </section>
-
-        <section class="skills">
-            <h2>Skills</h2>
-            <p>My technical skills span various domains, including **programming, data science, AI, web development, and cybersecurity**.</p>
-            
-            <div class="skills-category">
-                <h4>🚀 Programming Languages</h4>
-                <ul>
-                    <li>Python</li>
-                    <li>JavaScript (ES6+)</li>
-                    <li>PHP</li>
-                    <li>SQL</li>
-                </ul>
-            </div>
-
-            <div class="skills-category">
-                <h4>📊 Data Analysis & Visualization</h4>
-                <ul>
-                    <li>Pandas</li>
-                    <li>NumPy</li>
-                    <li>Matplotlib</li>
-                    <li>Seaborn</li>
-                </ul>
-            </div>
-
-            <div class="skills-category">
-                <h4>🤖 Machine Learning & AI</h4>
-                <ul>
-                    <li>Scikit-learn</li>
-                    <li>TensorFlow</li>
-                    <li>PyTorch</li>
-                    <li>NLP (spaCy, NLTK)</li>
-                </ul>
-            </div>
-
-            <div class="skills-category">
-                <h4>🌐 Web Development</h4>
-                <ul>
-                    <li>HTML5, CSS3</li>
-                    <li>Django & Django REST Framework</li>
-                    <li>React.js</li>
-                </ul>
-            </div>
-
-            <div class="skills-category">
-                <h4>🔒 Cybersecurity & Cryptography</h4>
-                <ul>
-                    <li>CEH, CISM, CISSP Certified</li>
-                    <li>OSCP Security Practices</li>
-                    <li>Symmetric & Asymmetric Cryptography</li>
-                </ul>
-            </div>
-        </section>
-
-        <section class="courses">
-            <h2>Relevant Coursework</h2>
-            <ul>
-                <li>Artificial Intelligence</li>
-                <li>Machine Learning Programming</li>
-                <li>Design and Analysis of Algorithms</li>
-                <li>Advanced Database Systems</li>
-                <li>Automata Theory</li>
-                <li>Web Development</li>
-                <li>Operating Systems</li>
-            </ul>
-        </section>
-    </main>
-
-    <div id="footer"></div>
-
-    <script>
-        document.getElementById("header").innerHTML = fetch("header.html").then(response => response.text()).then(data => document.getElementById("header").innerHTML = data);
-        document.getElementById("footer").innerHTML = fetch("footer.html").then(response => response.text()).then(data => document.getElementById("footer").innerHTML = data);
-    </script>
-
-    <script src="scripts/scripts.js"></script>
-
+  <div id="footer"></div>
+  <script src="scripts/scripts.js"></script>
 </body>
 </html>
