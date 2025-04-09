@@ -3,12 +3,11 @@
 Welcome to my personal portfolio website!  
 This is a web-based portfolio that showcases my skills, projects, and career journey as an aspiring Data Scientist and Machine Learning Engineer.
 
-![Portfolio Preview](./preview.png) <!-- Replace with actual screenshot if available -->
+<!--![Portfolio Preview](./preview.png)  Replace with actual screenshot if available -->
 
 ---
-
 ## 🚀 Live Demo
-👉 [View the live site here](https://erick-ondiwa.github.io/Potforlio-Website)
+👉 [View the live site here](https://erick-ondiwa.github.io/Potforlio-Website/)
 
 ---
 
