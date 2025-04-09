@@ -3,7 +3,10 @@
 Welcome to my personal portfolio website!  
 This is a web-based portfolio that showcases my skills, projects, and career journey as an aspiring Data Scientist and Machine Learning Engineer.
 
-[Portfolio Preview](./imgs/home.png)  Replace with actual screenshot if available 
+[Portfolio Preview]
+(./imgs/home.png)
+(./imgs/about.png)
+(./imgs/projects.png)
 
 ---
 ## 🚀 Live Demo
@@ -30,12 +33,12 @@ This is a web-based portfolio that showcases my skills, projects, and career jou
 - ⚙️ (Optional) Backend to handle blog entries and contact form
 
 ---
-
+<!-- 
 ## 📸 Screenshots
 
 *(Add screenshots of your live site on desktop and mobile views here for visual appeal)*
 
----
+--- -->
 
 ## 📬 Contact
 
