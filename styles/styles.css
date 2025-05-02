@@ -16,7 +16,6 @@ header{
   bottom: 0;
   align-items: center;
   width: 100%;
-  display: flex;
   justify-content: space-between;
   color: white;
   position: fixed; 
