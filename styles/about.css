@@ -52,16 +52,20 @@
 .btn-resume {
   display: inline-block;
   padding: 0.6rem 1.2rem;
-  background: linear-gradient(135deg, #0d6efd, #6610f2);
-  color: #fff;
+  /* background: linear-gradient(135deg, #0d6efd, #6610f2); Old */
+  background-color: hsl(145, 90%, 49%); /* New: Green accent */
+  color: #fff; /* Keep text white or change to a dark color if green is too light */
   font-weight: bold;
   text-decoration: none;
   border-radius: 8px;
   transition: 0.3s ease;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border: none; /* Ensure no default border interferes */
 }
 .btn-resume:hover {
-  background: linear-gradient(135deg, #6610f2, #0d6efd);
+  /* background: linear-gradient(135deg, #6610f2, #0d6efd); Old */
+  background-color: hsl(145, 90%, 55%); /* New: Slightly brighter green */
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3); /* Optional: Enhance shadow on hover */
 }
 
 /* Section Titles */
@@ -157,4 +161,46 @@
   visibility: visible;
   opacity: 1;
   animation: slideUp 2s ease-out forwards;
+}
+
+@media (max-width: 768px) {
+  .about-profile img {
+    width: 180px;
+    height: 180px;
+  }
+  .about-profile-info h1 {
+    font-size: 2rem; /* Adjust from 2.5rem */
+  }
+  .about-profile-info h4 {
+    font-size: 1.1rem; /* Adjust from 1.3rem */
+  }
+  .courses-list {
+    columns: 1;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-profile {
+    flex-direction: column; /* Stack image and info */
+  }
+  .about-profile img {
+    width: 150px;
+    height: 150px;
+    margin-bottom: 1rem;
+  }
+  .about-profile-info h1 {
+    font-size: 1.8rem;
+  }
+  .about-profile-info h4 {
+    font-size: 1rem;
+  }
+  .about-section h2 {
+    font-size: 1.5rem; /* Adjust from 2rem */
+  }
+  .skills-grid h4 {
+      font-size: 1rem; /* Adjust if needed */
+  }
+  .skills-grid ul {
+      padding-left: 1rem; /* Adjust padding */
+  }
 }
