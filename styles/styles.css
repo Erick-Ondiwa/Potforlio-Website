@@ -157,7 +157,81 @@ footer{
 .link_icons a:hover {
   background-color: #555; 
 }
-p a{
+p a {
   text-decoration: none;
-  color: rgb(13, 238, 107);
+  color: hsl(145, 90%, 49%); /* Standardized to HSL from rgb */
+  transition: color 0.3s ease; /* Add transition */
+}
+p a:hover {
+  color: hsl(145, 90%, 55%); /* Brighter green on hover */
+  text-decoration: underline; /* Optional: add underline on hover */
+}
+
+/* Tablets and large mobiles */
+@media (max-width: 768px) {
+  /* Header adjustments */
+  header h1 {
+    font-size: 1.8em; /* Example */
+  }
+  .mynav ul li a {
+    padding: 15px 10px; /* Example */
+    font-size: 1em; /* Example */
+  }
+
+  /* Main content typography */
+  .details h1 {
+    font-size: 3.5em; /* Example */
+  }
+  .details h2 {
+    font-size: 2.5em; /* Example */
+  }
+  main h1 {
+    font-size: 3em; /* Example */
+  }
+  main h4 {
+    font-size: 1.5em; /* Example */
+  }
+  main{
+    padding: 0 20px; /* Add some horizontal padding */
+  }
+}
+
+/* Small mobiles */
+@media (max-width: 480px) {
+  header {
+    height: 60px; /* Example reduce header height */
+  }
+  header h1 {
+    font-size: 1.5em; /* Example */
+    margin-left: 10px; /* Adjust margin */
+  }
+  .mynav { /* Adjust navigation container */
+    margin-left: 0;
+    width: auto; /* Allow it to shrink */
+    margin-right: 10px;
+  }
+  .mynav ul {
+    justify-content: flex-end; /* Align to the right if space is an issue */
+  }
+  .mynav ul li a {
+    padding: 10px 5px; /* Example */
+    font-size: 0.9em; /* Example */
+  }
+
+  /* Main content typography */
+  .details h1 {
+    font-size: 2.5em; /* Example */
+  }
+  .details h2 {
+    font-size: 1.8em; /* Example */
+  }
+  main h1 {
+    font-size: 2em; /* Example */
+  }
+  main h4 {
+    font-size: 1.2em; /* Example */
+  }
+   main p, .details p {
+    font-size: 1em; /* Adjust paragraph font size */
+  }
 }
